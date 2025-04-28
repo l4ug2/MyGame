@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Three.js CDN</title>
+    <style>body { margin: 0; }</style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <script type="module" src="others/main.js"></script> -->
+    <script type="module" src="test.js"></script>
+
+    <div id="cam-info"></div>
+
+    <div id="view-info"></div>
+
+    <div id="controls-container">
+        <!-- Axes Display -->
+        <div class="control-item">
+          <span class="control-key">(Shift+A)&nbsp;</span><span> Axes:&nbsp;</span><span id="axes-status">No</span>
+        </div>
+      
+        <!-- Step Size Display -->
+        <div class="control-item">
+          <span class="control-key">(Shift+S)&nbsp;</span><span> Move:&nbsp;</span><span id="step-size-display">1</span>
+        </div>
+      
+        <!-- Camera/View Movement Display -->
+        <div class="control-item">
+          <span class="control-key">(Shift+R)&nbsp;</span><span> Rotate:&nbsp;</span><span id="rotate-status">Yes</span>
+        </div>
+    </div>
+
+    <div id="rain-container">
+        <!-- Drops Display -->
+        <div class="control-item">
+            <span>Drops Total:&nbsp;</span><span id="drops-count">100</span>
+        </div> 
+        
+        <!-- Rain Display -->
+        <div class="control-item">
+          <span class="control-key">(Shift+P)&nbsp;</span><span> Ploaie:&nbsp;</span><span id="rain-status">Yes</span>
+        </div>
+
+        <!-- Rafale Drops Display -->
+         <div class="control-item">
+            <span class="control-key">(Shift+N)&nbsp;</span><span> New:&nbsp;</span><span id="rafale-drops">100</span>
+        </div>
+
+         <!-- Rafale Drops Max Display -->
+         <div class="control-item">
+            <span class="control-key">(Shift+M)&nbsp;</span><span> Max:&nbsp;</span><span id="rafale-drops-max">2500</span>
+        </div>
+
+         <!-- Rafale Milisec Display -->
+         <div class="control-item">
+            <span class="control-key">(Shift+T)&nbsp;</span><span> Milisec:&nbsp;</span><span id="rafale-milisec">10000</span>
+        </div>
+
+    </div>
+  </body>
+</html>
